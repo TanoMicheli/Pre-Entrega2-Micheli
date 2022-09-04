@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+.rectangule{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'calibri';
+}
+
+header {
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+    padding: 25px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9514180672268907) 0%, rgba(131,44,126,0.8757878151260504) 45%, rgba(151,54,171,0.9122023809523809) 94%);
+}
+
+.menu {
+    width: 900;
+    margin: auto;
+}
+
+.menuImg {
+    width: 300px;
+    height: 150px;
+    float: left;
+    padding: 8px;
+}
+
+.imgFooter {
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 20px;
+    float: left; 
+    position: relative;
+    right: 500px;
+    top: 55px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(8, 6, 7, 0.952);
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgba(19, 16, 17, 0.952);
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.6s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+h1 /* titulo */{
+    color: rgb(0, 0, 0); font-size: 65px;
+    position: relative;
+    top: 55px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(240, 255, 255, 0.295);
+}
+
+main {
+    background: url("../images/1659732116653.png") no-repeat center;
+    height: 800px;
+    background-size: cover;
+}
+
+.lorem {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    position: relative;
+    top: 55px;
+    text-align: center;
+    background-color: rgba(240, 255, 255, 0.295);
+}
+
+.redes{
+    font-size: 2rem;
+}
+.imgCart{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 4rem;
+    right: 1.5rem;
+}
+
+.footer{
+    text-align: flex-start;
+    font-style: italic;
+    background-color: rgba(107, 1, 107, 0.705) ;
+
+}
+
+.logoInstagram{
+
+}
+
+.logoFacebook{
+
+}
+
+/*OJO queda margen en blanco a la derecha
+.containerLinks{
+    position: relative;
+    left: 4rem;
+}
