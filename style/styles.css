@@ -1,3 +1,9 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px; 
+    grid-template-columns: 100px; 
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -91,7 +97,7 @@ h1 /* titulo */{
 }
 
 main {
-    background: url("../images/1659732116653.png") no-repeat center;
+    background: url("../images/vinesCoAdentro.jpeg") no-repeat center;
     height: 800px;
     background-size: cover;
 }
@@ -106,7 +112,8 @@ main {
 }
 
 .redes{
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: center;
 }
 .imgCart{
     display: flex;
@@ -124,13 +131,18 @@ main {
 
 }
 
-.logoInstagram{
+.mapaGoogle{
+    width: 100%;
+}
 
+.logoInstagram{
+    left: 2rem;
 }
 
 .logoFacebook{
-
+    left: 2rem;
 }
+
 
 /*OJO queda margen en blanco a la derecha
 .containerLinks{
